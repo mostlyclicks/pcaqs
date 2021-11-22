@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from './components/Header'
-import AQList from './compoents/AQList'
-
+import AQList from './components/AQList'
 
 
 function App() {
