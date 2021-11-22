@@ -1,6 +1,10 @@
 import React from 'react'
 
-const AQList = () => {
+const AQList = (props) => {
+
+  const qalist = props.lists
+  console.log(qalist)
+
   return (
     <section>
       <h1>Asked Questions</h1>
