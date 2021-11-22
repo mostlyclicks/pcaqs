@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from './components/Header'
+import AQList from './compoents/AQList'
 
 
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <div className="">
       <Header />
+      <AQList />
     </div>
   );
 }
