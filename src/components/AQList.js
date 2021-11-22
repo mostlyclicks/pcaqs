@@ -8,6 +8,17 @@ const AQList = (props) => {
   return (
     <section>
       <h1>Asked Questions</h1>
+      <ul>
+        {qalist.map((qaitem) => {
+
+          return (
+            <li>
+              Q: {qaitem.question}<br/>
+              A: {qaitem.answer}
+            </li>
+          )
+        })}
+      </ul>
       
     </section>
   )
