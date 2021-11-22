@@ -1,4 +1,5 @@
 import React from 'react'
+import AQItem from './AQItem'
 
 const AQList = (props) => {
 
@@ -12,10 +13,7 @@ const AQList = (props) => {
         {qalist.map((qaitem) => {
 
           return (
-            <li>
-              Q: {qaitem.question}<br/>
-              A: {qaitem.answer}
-            </li>
+            <AQItem question={qaitem.question} answer={qaitem.answer} />
           )
         })}
       </ul>
